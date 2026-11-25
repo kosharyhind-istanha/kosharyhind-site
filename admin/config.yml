@@ -1,0 +1,51 @@
+# DRAFT: fill in after the free GitHub repo and Cloudflare Pages site exist.
+backend:
+  name: github
+  repo: OWNER/REPO            # TODO: GitHub repo
+  branch: main
+  base_url: https://SITE.pages.dev   # TODO: final site URL (OAuth helper lives here)
+  auth_endpoint: /oauth/auth         # TODO: confirm against the reviewed helper
+site_url: https://SITE.pages.dev
+media_folder: images
+public_folder: /images
+locale: ar
+collections:
+  - name: menu
+    label: المنيو
+    files:
+      - name: menu
+        label: المنيو
+        file: content/menu.json
+        fields:
+          - { name: name, label: اسم المحل, widget: string }
+          - { name: phones, label: أرقام التليفون, widget: list, field: { name: phone, label: رقم, widget: string } }
+          - { name: address, label: العنوان, widget: text }
+          - name: categories
+            label: الأقسام
+            widget: list
+            fields:
+              - { name: id, label: المعرّف (لا يتغير), widget: string }
+              - { name: title, label: اسم القسم, widget: string }
+              - { name: tone, label: اللون, widget: select, options: [green, orange, red, brown] }
+              - { name: note, label: ملاحظة, widget: string, required: false }
+              - name: illus
+                label: صورة القسم
+                widget: object
+                required: false
+                fields:
+                  - { name: src, label: الصورة, widget: image, required: false }
+                  - { name: alt, label: وصف الصورة, widget: string, required: false }
+                  - { name: own, label: صورة من المحل (بدون علامة توضيحية), widget: boolean, default: true }
+              - name: items
+                label: الأصناف
+                widget: list
+                fields:
+                  - { name: name, label: الصنف, widget: string }
+                  - { name: desc, label: وصف, widget: string, required: false }
+                  - name: prices
+                    label: الأسعار
+                    widget: list
+                    fields:
+                      - { name: label, label: الحجم (ص أو ك، أو اتركه فاضي), widget: string, required: false }
+                      - { name: value, label: السعر بالجنيه, widget: number, value_type: int }
+                      - { name: from, label: يبدأ من, widget: boolean, default: false }
