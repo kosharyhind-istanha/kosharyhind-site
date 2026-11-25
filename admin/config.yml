@@ -24,6 +24,7 @@ collections:
           - name: categories
             label: الأقسام
             widget: list
+            summary: '{{fields.title}}'
             fields:
               - { name: id, label: المعرّف (لا يتغير), widget: string }
               - { name: title, label: اسم القسم, widget: string }
@@ -40,6 +41,7 @@ collections:
               - name: items
                 label: الأصناف
                 widget: list
+                summary: '{{fields.name}}'
                 fields:
                   - { name: name, label: الصنف, widget: string }
                   - { name: desc, label: وصف, widget: string, required: false }
