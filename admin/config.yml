@@ -11,6 +11,8 @@ locale: ar
 collections:
   - name: menu
     label: المنيو
+    editor:
+      preview: false
     files:
       - name: menu
         label: المنيو
