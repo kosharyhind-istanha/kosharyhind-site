@@ -34,7 +34,7 @@ collections:
                 fields:
                   - { name: src, label: الصورة, widget: image, required: false }
                   - { name: alt, label: وصف الصورة, widget: string, required: false }
-                  - { name: own, label: صورة من المحل (بدون علامة توضيحية), widget: boolean, default: true }
+                  - { name: own, label: صورة من المحل (بدون علامة توضيحية), widget: boolean, default: true, required: false }
               - name: items
                 label: الأصناف
                 widget: list
