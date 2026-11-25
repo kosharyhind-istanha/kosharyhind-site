@@ -1,11 +1,10 @@
-# DRAFT: fill in after the free GitHub repo and Cloudflare Pages site exist.
 backend:
   name: github
-  repo: OWNER/REPO            # TODO: GitHub repo
+  repo: kosharyhind-istanha/kosharyhind-site
   branch: main
-  base_url: https://SITE.pages.dev   # TODO: final site URL (OAuth helper lives here)
-  auth_endpoint: /oauth/auth         # TODO: confirm against the reviewed helper
-site_url: https://SITE.pages.dev
+  base_url: https://kosharyhind-site.pages.dev
+  auth_endpoint: /api/auth
+site_url: https://kosharyhind-site.pages.dev
 media_folder: images
 public_folder: /images
 locale: ar
