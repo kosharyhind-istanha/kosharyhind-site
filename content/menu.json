@@ -1,890 +1,890 @@
 {
-  "name": "كشري هند",
-  "phones": [
-    "0483868155",
-    "01113566060",
-    "01017531315"
-  ],
-  "address": "اسطنها، طريق بنها الباجور. الفرع الأول بجوار سنترال اسطنها، والفرع الثاني بجوار مسجد الصمد كوبري الخضراوية. ",
-  "categories": [
+ "name": "كشري هند",
+ "tagline": "اسطنها",
+ "phones": [
+  "0483868155",
+  "01113566060",
+  "01017531315"
+ ],
+ "address": "اسطنها، طريق بنها الباجور. الفرع الأول بجوار سنترال اسطنها، والفرع الثاني بجوار مسجد الصمد كوبري الخضراوية.",
+ "categories": [
+  {
+   "id": "kosh",
+   "title": "الكشري",
+   "tone": "green",
+   "illus": {
+    "src": "/images/sec-koshary.jpg",
+    "alt": "كشري هند",
+    "credit": "كشري هند",
+    "own": true
+   },
+   "items": [
     {
-      "id": "kosh",
-      "title": "الكشري",
-      "tone": "green",
-      "illus": {
-        "src": "/images/sec-koshary.jpg",
-        "alt": "كشري هند",
-        "credit": "كشري هند",
-        "own": true
-      },
-      "items": [
-        {
-          "name": "اكس",
-          "prices": [
-            {
-              "value": 20,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "هند",
-          "prices": [
-            {
-              "value": 25,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "صلاح",
-          "prices": [
-            {
-              "value": 30,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "الأستاذ",
-          "prices": [
-            {
-              "value": 35,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "الفخم",
-          "prices": [
-            {
-              "value": 40,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "الفنان",
-          "prices": [
-            {
-              "value": 50,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "صاروخ",
-          "prices": [
-            {
-              "value": 60,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "مرموش",
-          "prices": [
-            {
-              "value": 70,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "كشري بالفراخ",
-          "prices": [
-            {
-              "value": 65,
-              "from": true,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "كشري باللحمة أو الكبدة أو السجق",
-          "prices": [
-            {
-              "value": 55,
-              "from": true,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        }
-      ],
-      "note": ""
+     "name": "اكس",
+     "prices": [
+      {
+       "value": 20,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
     },
     {
-      "id": "mix",
-      "title": "الميكسات",
-      "tone": "orange",
-      "illus": {
-        "src": "/images/sec-cup.jpg",
-        "alt": "علبة كشري هند",
-        "credit": "كشري هند",
-        "own": true
-      },
-      "items": [
-        {
-          "name": "ميكس فراخ",
-          "prices": [
-            {
-              "value": 65,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "ميكس لحمة",
-          "prices": [
-            {
-              "value": 60,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "ميكس كبدة",
-          "prices": [
-            {
-              "value": 60,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "ميكس سجق",
-          "prices": [
-            {
-              "value": 60,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "ميكس ساده",
-          "prices": [
-            {
-              "value": 50,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        }
-      ],
-      "note": ""
+     "name": "هند",
+     "prices": [
+      {
+       "value": 25,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
     },
     {
-      "id": "extra",
-      "title": "إضافات كشري",
-      "tone": "red",
-      "items": [
-        {
-          "name": "تقلية",
-          "prices": [
-            {
-              "value": 10,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "عيش توست",
-          "prices": [
-            {
-              "value": 10,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "صلصلة",
-          "prices": [
-            {
-              "value": 10,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "عدس / حمص",
-          "prices": [
-            {
-              "value": 10,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "شطة / دقة",
-          "prices": [
-            {
-              "value": 5,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "خيار / طماطم",
-          "prices": [
-            {
-              "value": 5,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        }
-      ],
-      "note": "",
-      "illus": null
+     "name": "صلاح",
+     "prices": [
+      {
+       "value": 30,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
     },
     {
-      "id": "bomb",
-      "title": "المتفجرات",
-      "tone": "brown",
-      "items": [
-        {
-          "name": "قنبلة",
-          "desc": "طاجن ميكس لحوم (لحمة + فراخ + كبدة أو سجق)",
-          "prices": [
-            {
-              "value": 80,
-              "from": false,
-              "label": ""
-            }
-          ]
-        },
-        {
-          "name": "ديناميت",
-          "desc": "ميكس كشري + طاجن + فراخ + لحمة + كبدة",
-          "prices": [
-            {
-              "value": 100,
-              "from": false,
-              "label": ""
-            }
-          ]
-        },
-        {
-          "name": "نووي",
-          "desc": "ميكس كشري + طاجن (فراخ + لحمة) + موتزاريلا + فلفل زيتون",
-          "prices": [
-            {
-              "value": 100,
-              "from": false,
-              "label": ""
-            }
-          ]
-        },
-        {
-          "name": "طلب كبدة أو سجق",
-          "desc": "كبدة أو سجق + عيش بلدي + مخلل وسلطة + مية سلطة",
-          "prices": [
-            {
-              "value": 60,
-              "from": false,
-              "label": ""
-            }
-          ]
-        }
-      ],
-      "note": "",
-      "illus": null
+     "name": "الأستاذ",
+     "prices": [
+      {
+       "value": 35,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
     },
     {
-      "id": "tagen",
-      "title": "الطواجن",
-      "tone": "green",
-      "illus": {
-        "src": "/images/sec-tagen.jpg",
-        "alt": "طاجن هند",
-        "credit": "كشري هند",
-        "own": true
-      },
-      "note": "ص صغير، ك كبير (حسب ترتيب المنيو الأصلي)",
-      "items": [
-        {
-          "name": "طاجن فراخ",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 50,
-              "from": false
-            },
-            {
-              "label": "ك",
-              "value": 70,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "طاجن لحمة",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 45,
-              "from": false
-            },
-            {
-              "label": "ك",
-              "value": 65,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "طاجن كبدة",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 45,
-              "from": false
-            },
-            {
-              "label": "ك",
-              "value": 65,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "طاجن سجق",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 45,
-              "from": false
-            },
-            {
-              "label": "ك",
-              "value": 65,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "طاجن ساده",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 35,
-              "from": false
-            }
-          ],
-          "desc": ""
-        }
-      ]
+     "name": "الفخم",
+     "prices": [
+      {
+       "value": 40,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
     },
     {
-      "id": "moz",
-      "title": "الموتزاريلا",
-      "tone": "orange",
-      "illus": {
-        "src": "/images/sec-moz.jpg",
-        "alt": "موتزاريلا هند",
-        "credit": "كشري هند",
-        "own": true
-      },
-      "items": [
-        {
-          "name": "فراخ موتزاريلا",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 65,
-              "from": false
-            },
-            {
-              "label": "ك",
-              "value": 80,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "لحمة موتزاريلا",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 60,
-              "from": false
-            },
-            {
-              "label": "ك",
-              "value": 75,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "كبدة موتزاريلا",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 60,
-              "from": false
-            },
-            {
-              "label": "ك",
-              "value": 75,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "سجق موتزاريلا",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 60,
-              "from": false
-            },
-            {
-              "label": "ك",
-              "value": 75,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "ساده موتزاريلا",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 50,
-              "from": false
-            }
-          ],
-          "desc": ""
-        }
-      ],
-      "note": ""
+     "name": "الفنان",
+     "prices": [
+      {
+       "value": 50,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
     },
     {
-      "id": "meat",
-      "title": "إضافات لحوم",
-      "tone": "red",
-      "items": [
-        {
-          "name": "إضافة فراخ",
-          "prices": [
-            {
-              "value": 40,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "إضافة لحمة",
-          "prices": [
-            {
-              "value": 30,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "إضافة كبدة",
-          "prices": [
-            {
-              "value": 30,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "إضافة سجق",
-          "prices": [
-            {
-              "value": 30,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        }
-      ],
-      "note": "",
-      "illus": null
+     "name": "صاروخ",
+     "prices": [
+      {
+       "value": 60,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
     },
     {
-      "id": "sand",
-      "title": "السندوتشات",
-      "tone": "brown",
-      "illus": {
-        "src": "/images/web-liver.jpg",
-        "alt": "سندوتشات كبدة",
-        "credit": "Dalia fathallah"
-      },
-      "items": [
-        {
-          "name": "حواوشي بلدي",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 20,
-              "from": false
-            },
-            {
-              "label": "ك",
-              "value": 35,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "حواوشي موتزاريلا",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 30,
-              "from": false
-            },
-            {
-              "label": "ك",
-              "value": 50,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "سندوتش كبدة",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 20,
-              "from": false
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "سندوتش سجق",
-          "prices": [
-            {
-              "label": "ص",
-              "value": 20,
-              "from": false
-            }
-          ],
-          "desc": ""
-        }
-      ],
-      "note": ""
+     "name": "مرموش",
+     "prices": [
+      {
+       "value": 70,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
     },
     {
-      "id": "sweet",
-      "title": "حلو كشري هند",
-      "tone": "orange",
-      "illus": {
-        "src": "/images/sec-sweet.jpg",
-        "alt": "حلو كشري هند",
-        "credit": "كشري هند",
-        "own": true
-      },
-      "items": [
-        {
-          "name": "رز بلبن عادي",
-          "prices": [
-            {
-              "value": 18,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "رز بلبن فرن",
-          "prices": [
-            {
-              "value": 20,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "رز بلبن بسبوسة",
-          "prices": [
-            {
-              "value": 25,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "رز بلبن كنافة",
-          "prices": [
-            {
-              "value": 25,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "رز بلبن مكسرات",
-          "prices": [
-            {
-              "value": 25,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "رز بلبن مانجو",
-          "prices": [
-            {
-              "value": 33,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "رز بلبن لوتس",
-          "prices": [
-            {
-              "value": 33,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "كشري حلو",
-          "prices": [
-            {
-              "value": 40,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "أم علي - قرع عسل",
-          "prices": [
-            {
-              "value": 22,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "كريم كراميل - كاستر",
-          "prices": [
-            {
-              "value": 22,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "قنبلة شيكولاتة",
-          "prices": [
-            {
-              "value": 25,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "طاجن شيكولاتة",
-          "prices": [
-            {
-              "value": 32,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "مثلث شيكولاتة",
-          "prices": [
-            {
-              "value": 32,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "مستطيل شيكولاتة",
-          "prices": [
-            {
-              "value": 50,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "مولتن كيك",
-          "prices": [
-            {
-              "value": 55,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        }
-      ],
-      "note": ""
+     "name": "كشري بالفراخ",
+     "prices": [
+      {
+       "value": 65,
+       "from": true,
+       "label": ""
+      }
+     ],
+     "desc": ""
     },
     {
-      "id": "drink",
-      "title": "المشروبات",
-      "tone": "green",
-      "illus": {
-        "src": "/images/sec-drinks.jpg",
-        "alt": "المشروبات",
-        "credit": "كشري هند",
-        "own": true
-      },
-      "items": [
-        {
-          "name": "كانز",
-          "prices": [
-            {
-              "value": 15,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "حاجه ساقعه زجاج",
-          "prices": [
-            {
-              "value": 15,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "بيج كولا",
-          "prices": [
-            {
-              "value": 12,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "ستينج",
-          "prices": [
-            {
-              "value": 15,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "فيوري",
-          "prices": [
-            {
-              "value": 20,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        },
-        {
-          "name": "مياه معدنيه",
-          "prices": [
-            {
-              "value": 7,
-              "from": false,
-              "label": ""
-            }
-          ],
-          "desc": ""
-        }
-      ],
-      "note": ""
+     "name": "كشري باللحمة أو الكبدة أو السجق",
+     "prices": [
+      {
+       "value": 55,
+       "from": true,
+       "label": ""
+      }
+     ],
+     "desc": ""
     }
-  ],
-  "tagline": "اسطنها"
+   ],
+   "note": ""
+  },
+  {
+   "id": "mix",
+   "title": "الميكسات",
+   "tone": "orange",
+   "illus": {
+    "src": "/images/sec-cup.jpg",
+    "alt": "علبة كشري هند",
+    "credit": "كشري هند",
+    "own": true
+   },
+   "items": [
+    {
+     "name": "ميكس فراخ",
+     "prices": [
+      {
+       "value": 65,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "ميكس لحمة",
+     "prices": [
+      {
+       "value": 60,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "ميكس كبدة",
+     "prices": [
+      {
+       "value": 60,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "ميكس سجق",
+     "prices": [
+      {
+       "value": 60,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "ميكس ساده",
+     "prices": [
+      {
+       "value": 50,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "extra",
+   "title": "إضافات كشري",
+   "tone": "red",
+   "items": [
+    {
+     "name": "تقلية",
+     "prices": [
+      {
+       "value": 10,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "عيش توست",
+     "prices": [
+      {
+       "value": 10,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "صلصلة",
+     "prices": [
+      {
+       "value": 10,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "عدس / حمص",
+     "prices": [
+      {
+       "value": 10,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "شطة / دقة",
+     "prices": [
+      {
+       "value": 5,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "خيار / طماطم",
+     "prices": [
+      {
+       "value": 5,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    }
+   ],
+   "note": "",
+   "illus": null
+  },
+  {
+   "id": "bomb",
+   "title": "المتفجرات",
+   "tone": "brown",
+   "items": [
+    {
+     "name": "قنبلة",
+     "desc": "طاجن ميكس لحوم (لحمة + فراخ + كبدة أو سجق)",
+     "prices": [
+      {
+       "value": 80,
+       "from": false,
+       "label": ""
+      }
+     ]
+    },
+    {
+     "name": "ديناميت",
+     "desc": "ميكس كشري + طاجن + فراخ + لحمة + كبدة",
+     "prices": [
+      {
+       "value": 100,
+       "from": false,
+       "label": ""
+      }
+     ]
+    },
+    {
+     "name": "نووي",
+     "desc": "ميكس كشري + طاجن (فراخ + لحمة) + موتزاريلا + فلفل زيتون",
+     "prices": [
+      {
+       "value": 100,
+       "from": false,
+       "label": ""
+      }
+     ]
+    },
+    {
+     "name": "طلب كبدة أو سجق",
+     "desc": "كبدة أو سجق + عيش بلدي + مخلل وسلطة + مية سلطة",
+     "prices": [
+      {
+       "value": 60,
+       "from": false,
+       "label": ""
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "illus": null
+  },
+  {
+   "id": "tagen",
+   "title": "الطواجن",
+   "tone": "green",
+   "illus": {
+    "src": "/images/sec-tagen.jpg",
+    "alt": "طاجن هند",
+    "credit": "كشري هند",
+    "own": true
+   },
+   "note": "ص صغير، ك كبير (حسب ترتيب المنيو الأصلي)",
+   "items": [
+    {
+     "name": "طاجن فراخ",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 50,
+       "from": false
+      },
+      {
+       "label": "ك",
+       "value": 70,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "طاجن لحمة",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 45,
+       "from": false
+      },
+      {
+       "label": "ك",
+       "value": 65,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "طاجن كبدة",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 45,
+       "from": false
+      },
+      {
+       "label": "ك",
+       "value": 65,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "طاجن سجق",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 45,
+       "from": false
+      },
+      {
+       "label": "ك",
+       "value": 65,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "طاجن ساده",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 35,
+       "from": false
+      }
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "moz",
+   "title": "الموتزاريلا",
+   "tone": "orange",
+   "illus": {
+    "src": "/images/sec-moz.jpg",
+    "alt": "موتزاريلا هند",
+    "credit": "كشري هند",
+    "own": true
+   },
+   "items": [
+    {
+     "name": "فراخ موتزاريلا",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 65,
+       "from": false
+      },
+      {
+       "label": "ك",
+       "value": 80,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "لحمة موتزاريلا",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 60,
+       "from": false
+      },
+      {
+       "label": "ك",
+       "value": 75,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "كبدة موتزاريلا",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 60,
+       "from": false
+      },
+      {
+       "label": "ك",
+       "value": 75,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "سجق موتزاريلا",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 60,
+       "from": false
+      },
+      {
+       "label": "ك",
+       "value": 75,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "ساده موتزاريلا",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 50,
+       "from": false
+      }
+     ],
+     "desc": ""
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "meat",
+   "title": "إضافات لحوم",
+   "tone": "red",
+   "items": [
+    {
+     "name": "إضافة فراخ",
+     "prices": [
+      {
+       "value": 40,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "إضافة لحمة",
+     "prices": [
+      {
+       "value": 30,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "إضافة كبدة",
+     "prices": [
+      {
+       "value": 30,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "إضافة سجق",
+     "prices": [
+      {
+       "value": 30,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    }
+   ],
+   "note": "",
+   "illus": null
+  },
+  {
+   "id": "sand",
+   "title": "السندوتشات",
+   "tone": "brown",
+   "illus": {
+    "src": "/images/web-liver.jpg",
+    "alt": "سندوتشات كبدة",
+    "credit": "Dalia fathallah"
+   },
+   "items": [
+    {
+     "name": "حواوشي بلدي",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 20,
+       "from": false
+      },
+      {
+       "label": "ك",
+       "value": 35,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "حواوشي موتزاريلا",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 30,
+       "from": false
+      },
+      {
+       "label": "ك",
+       "value": 50,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "سندوتش كبدة",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 20,
+       "from": false
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "سندوتش سجق",
+     "prices": [
+      {
+       "label": "ص",
+       "value": 20,
+       "from": false
+      }
+     ],
+     "desc": ""
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "sweet",
+   "title": "حلو كشري هند",
+   "tone": "orange",
+   "illus": {
+    "src": "/images/sec-sweet.jpg",
+    "alt": "حلو كشري هند",
+    "credit": "كشري هند",
+    "own": true
+   },
+   "items": [
+    {
+     "name": "رز بلبن عادي",
+     "prices": [
+      {
+       "value": 18,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "رز بلبن فرن",
+     "prices": [
+      {
+       "value": 20,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "رز بلبن بسبوسة",
+     "prices": [
+      {
+       "value": 25,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "رز بلبن كنافة",
+     "prices": [
+      {
+       "value": 25,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "رز بلبن مكسرات",
+     "prices": [
+      {
+       "value": 25,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "رز بلبن مانجو",
+     "prices": [
+      {
+       "value": 33,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "رز بلبن لوتس",
+     "prices": [
+      {
+       "value": 33,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "كشري حلو",
+     "prices": [
+      {
+       "value": 40,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "أم علي - قرع عسل",
+     "prices": [
+      {
+       "value": 22,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "كريم كراميل - كاستر",
+     "prices": [
+      {
+       "value": 22,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "قنبلة شيكولاتة",
+     "prices": [
+      {
+       "value": 25,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "طاجن شيكولاتة",
+     "prices": [
+      {
+       "value": 32,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "مثلث شيكولاتة",
+     "prices": [
+      {
+       "value": 32,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "مستطيل شيكولاتة",
+     "prices": [
+      {
+       "value": 50,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "مولتن كيك",
+     "prices": [
+      {
+       "value": 55,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    }
+   ],
+   "note": ""
+  },
+  {
+   "id": "drink",
+   "title": "المشروبات",
+   "tone": "green",
+   "illus": {
+    "src": "/images/sec-drinks.jpg",
+    "alt": "المشروبات",
+    "credit": "كشري هند",
+    "own": true
+   },
+   "items": [
+    {
+     "name": "كانز",
+     "prices": [
+      {
+       "value": 15,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "حاجه ساقعه زجاج",
+     "prices": [
+      {
+       "value": 15,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "بيج كولا",
+     "prices": [
+      {
+       "value": 12,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "ستينج",
+     "prices": [
+      {
+       "value": 15,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "فيوري",
+     "prices": [
+      {
+       "value": 20,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    },
+    {
+     "name": "مياه معدنيه",
+     "prices": [
+      {
+       "value": 7,
+       "from": false,
+       "label": ""
+      }
+     ],
+     "desc": ""
+    }
+   ],
+   "note": ""
+  }
+ ]
 }
